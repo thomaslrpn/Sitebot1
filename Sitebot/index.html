@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="images/giveawaypng.png" />
+    <title>GiveawayBot</title>
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo">GiveawayBot</a>
+      <ul>
+        <li><a href="#">Invite</a></li>
+        <li><a href="#">Support</a></li>
+        <li><a href="https://paypal.me/thomas4243?country.x=FR&locale.x=fr_FR" target="_blank">Donate</a></li>
+        <li><a href="https://twitter.com/totols__" target="_blank">Twitter</a></li>
+        <li><a href="">Contact</a></li>
+      </ul>
+    </header>
+    <div class="first-page">
+      <section class="bottom">
+        <div class="logo2">
+          <img src="images/giveaway_ava_epic.png" alt="Logo" />
+        </div>
+        <div class="giveaway">
+          <h1>GiveawayBot</h1>
+        </div>
+        <p>
+          Hold giveaways on your <font color="#5465A0">Discord</font> server
+          quickly and easily!
+        </p>
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="161.5" height="28" role="img" aria-label="SERVERS: 2176000"><title>SERVERS: 2176000</title><g shape-rendering="crispEdges"><rect width="79.75" height="28" fill="#555"/><rect x="79.75" width="81.75" height="28" fill="#7289da"/></g><g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="100"><text transform="scale(.1)" x="398.75" y="175" textLength="557.5" fill="#fff">SERVERS</text><text transform="scale(.1)" x="1206.25" y="175" textLength="577.5" fill="#fff" font-weight="bold">2176000</text></g></svg>
+        <div class="btn">
+          <a href="#">ADD TO DISCORD</a>
+          <a href="#">GET PREMIUM</a>
+        </div>
+      </section>
+    </div>
+    <section class="seconde-page">
+      <div>
+        <h1 class="start">Start Holding Giveaways!!</h1>
+      </div>
+      <div>
+        <p><font color="CFA2CB"><b>/ghelp</b></font> - shows the available commands</p>
+        <p><font color="CFA2CB"><b>/gabout</b></font> - shows information about the bot</p>
+        <p><font color="CFA2CB"><b>/ginvite</b></font> - shows a link to add the bot to your server</p>
+        <p><font color="CFA2CB"><b>/gcreate</b></font> - creates a giveaway (interactive setup)</p>
+        <p class="gstart"><font color="CFA2CB"><b>/gstart "time" "winners" "prize"</b></font> - starts a giveaway with the provided number of seconds. For <br> example, <font color="CFA2CB"><b>/gstart 30s 2 Steam Code</b></font> would start a 30-second giveaway for a <br> Steam Code with 2 winners! To use minutes/hours/days instead of seconds, <br> simply include an "m", "h", or "d" in the time ~ /gstart 3m ... would be a 3-minute <br>giveaway.<p>
+        <p><font color="CFA2CB"><b>/gend "giveaway_id"</b></font> -  ends the specified currently-running giveaway and picks the appropriate <br> number of winners immediately.</p>
+        <p><font color="CFA2CB"><b>/gdelete "giveaway_id"</b></font> -  deletes the specified giveaway without picking winners.</p>
+        <p><font color="CFA2CB"><b>/glist</b></font> -  lists all the currently-running giveaways on the server</p>
+        <p><font color="CFA2CB"><b>/greroll "giveaway_id"</b></font> - picks a new winner from the specified giveaway. You can also right-click (or long-press on mobile) <br> on an ended giveaway and select <font color="CFA2CB"><b>Apps > Reroll Giveaway</b></font> <br>to reroll.</p>
+        <p><font color="CFA2CB"><b>/gsettings show</b></font> - shows GiveawayBot's settings on the server. Some settings are set automatically, <br> such as locale.</p>
+        <p><font color="CFA2CB"><b>/gsettings set color "hex_code"</b></font> - sets the color of the embed used for giveaways</p>
+        <p><font color="CFA2CB"><b>/gsettings set emoji "emoji"</b></font> - sets the emoji or text used on the button to enter giveaways</p>
+      </div>
+    </section>
+    <div class="footer">
+      <footer>Copyright © ToToTv 2022-2023</footer>
+    </div>
+  </body>
+</html>
+
+<script type="text/javascript">
+  window.addEventListener("scroll", function () {
+    var header = document.querySelector("header");
+    header.classList.toggle("sticky", window.scrollY > 0);
+  });
+</script>
